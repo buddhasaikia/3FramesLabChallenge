@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/lblWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape_rectangle"
+            android:maxLines="10"
+            android:padding="8dp"
+            tools:text="Buddha Saikia" />
+
+        <TextView
+            android:id="@+id/lblCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_gravity="end|top"
+            android:background="@drawable/shape_circle"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:minWidth="24dp"
+            android:padding="4dp"
+            android:textColor="@android:color/white"
+            tools:text="12" />
+    </FrameLayout>
+</FrameLayout>
