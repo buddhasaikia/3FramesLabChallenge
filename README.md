@@ -1,1 +1,21 @@
 This is a sample project to find most popular tags in a paragraph and display them in descending order.
+
+## Details
+
+Design patters- **MVVM**
+
+Reactive extension- **RxJava2**
+
+### Package structure
+
+```
+com.buddha.a3frameslabchallengeapp
+|-config
+|-data
+|-home
+  |-view
+  |-viewmodel
+|-utils
+```
+### A bit of explanation
+Enter a paragraph in _EditText_ and click **PROCESS** button. It will trigger and execute the task in android [computation scheduler](http://reactivex.io/RxJava/javadoc/rx/schedulers/Schedulers.html#computation--) thread. During processing it should show a **progressbar**(if task takes longer time). Once finished, it will display the sorted list in a **RecyclerView**.
