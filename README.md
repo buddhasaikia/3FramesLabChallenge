@@ -1,4 +1,9 @@
-This is a sample project to find most popular tags in a paragraph and display them in descending order.
+###### This is a sample project to find most popular tags in a paragraph and display them in descending order.
+## Screenshots
+
+![](https://github.com/buddhasaikia/3FramesLabChallenge/blob/master/screenshots/device-2018-11-16-151814.png?raw=true)
+
+![](https://github.com/buddhasaikia/3FramesLabChallenge/blob/master/screenshots/device-2018-11-16-151844.png?raw=true)
 
 ## Details
 
