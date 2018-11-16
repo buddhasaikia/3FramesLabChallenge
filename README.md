@@ -7,6 +7,8 @@
 
 ## Details
 
+Language- **Kotlin**
+
 Design patters- **MVVM**
 
 Reactive extension- **RxJava2**
